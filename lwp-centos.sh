@@ -1,6 +1,7 @@
 #!/bin/bash
 # Written by Brett Salmiery
 # Note: This script is made just to get LXC Web Panel working in Centos 7
+# Quick run: wget https://raw.githubusercontent.com/salmiery/lxc/master/lwp-centos.sh -O - | /bin/sh
 ##############################################################################################
 
 echo ' _     __   _______  __          __  _       _____                 _'
