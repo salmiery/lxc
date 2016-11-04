@@ -1,27 +1,10 @@
 #!/bin/bash
 # Written by Brett Salmiery
+# @Salmiery
 # Note: This script is made just to get LXC Web Panel working in Centos 7
 # Quick run: wget https://raw.githubusercontent.com/salmiery/lxc/master/lwp-centos.sh -O - | /bin/sh
 ##############################################################################################
 
-
-echo " _     __   _______  __          __  _       _____                 _ "
-echo "| |    \ \ / / ____| \ \        / / | |     |  __ \               | |"
-echo "| |     \ V / |       \ \  /\  / /__| |__   | |__) |_ _ _ __   ___| |"
-echo "| |      > <| |        \ \/  \/ / _ \ \'_ \  |  ___/ _\` | '_ \ / _ \ |"
-echo "| |____ / . \ |____     \  /\  /  __/ |_) | | |  | (_| | | | |  __/ |"
-echo "|______/_/ \_\_____|     \/  \/ \___|_.__/  |_|   \__,_|_| |_|\___|_|"
-echo
-echo 
-echo " _____            _   _____ _____   _____    _ _ _   _             "
-echo "/  __ \          | | |  _  /  ___| |  ___|  | (_) | (_)            "
-echo "| /  \/ ___ _ __ | |_| | | \ \`--.  | |__  __| |_| |_ _  ___  _ __  "
-echo "| |    / _ \  _ \| __| | | |\`--. \ |  __|/ _\` | | __| |/ _ \|  _ \ "
-echo "| \__/\  __/ | | | |_\ \_/ /\__/ / | |__| (_| | | |_| | (_) | | | |"
-echo " \____/\___|_| |_|\__|\___/\____/  \____/\__,_|_|\__|_|\___/|_| |_|"
-echo 
-echo 'Written by Brett Salmiery'
-sleep 2
 
 echo '[~] Downloading web panel'
 wget https://lxc-webpanel.github.io/tools/install.sh -O lwpinstall.sh
